@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.cache
+*.egg-info/
+
+# Virtual environments
+venv/
+.env
+*.env
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE - JetBrains / PyCharm / IntelliJ / CLion
+.idea/
+
+# VSCode
+.vscode/
+
+# Selenium Drivers
+geckodriver*
+chromedriver*
+
+# Lab folders ignoring their venv & .idea
+lab_*/venv/
+lab_*/.idea/
+lab_*/.env
+lab_*/geckodriver*/
+
+
